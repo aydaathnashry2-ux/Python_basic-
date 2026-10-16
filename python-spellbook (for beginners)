@@ -1,0 +1,42 @@
+ import os
+import time
+print("MAGICAL AI")
+print("WELOCME TO THE MAGICAL AI.✨✨")
+print("HRLLO HOW ARE YOU TODAY?")
+ansewr = input(" ")
+print("WHAT IS YOUR NAME YOUNG PERSON?")
+name = input("enter your name : ")
+print(f"nice to meet you {name}..have a nice day")
+while True:
+ magic= input("what kind of magic do you want? ")
+ if magic.strip().lower() == "fire":
+     os.system("cls")
+     print("🔥MAGICAL FIRE✨")
+     print("               🔥")
+     time.sleep(0.4)
+     
+     os.system("cls")
+     print("waiting....")
+     print("       🔥🔥")
+     print("      🔥🔥🔥🔥")
+     time.sleep(0.4)
+     
+     os.system("cls")
+     print("      🔥🔥")
+     print("   🔥🔥🔥🔥🔥")
+     time.sleep(0.4)
+   
+     os.system("cls")
+     print("MAGICAL FIRE BOOM!!!!🎆🎇      ")
+     print("      🔥🔥🔥🔥🔥")
+     print("     🔥🔥🔥🔥🔥🔥🔥")
+     print("     🎇🎇🎇🎇🎇🎇")
+     time.sleep(0.8)
+
+     print("\n tis was your magic")
+ elif magic.lower() == "exit":
+     print("bye bye")
+     break
+ else:
+   print("tis is invalid")
+
